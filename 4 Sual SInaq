@@ -1,0 +1,76 @@
+#print("birinci sual.\n")
+print("x-dən y-ə kimi olan ədədlərin cəmini tapan proqram yazın")
+a = int(input("X in qiymetini daxil edin:"))
+b = int(input("Y in qiymetini daxil Edin"))
+b = int(b)
+c = a
+for i in range(a-1, b, 1):
+    c = c+i
+print("Cavab:",a,"+",a+1,"+...+",b,"=",c)
+
+
+
+
+
+
+#print("2.ci sual:.\n")
+print("Yazılan nömrənin Azercell nömrəsi olub olmadığını yoxlayan proqram yazın.")
+print("Meselen:+994513665229")
+a = input("Nomrenizi daxil edin:")
+if a[4] == "5" and a[5] == "0" or a[4] == "5" and a[5]=="1":
+    print("Azercell.")
+elif a[4] == "5" and a[5] == "5":
+    print("Bakcell.")
+elif a[4] == "7" and a[5] == "0" or a[4] == "7" and a[5]=="7":
+    print("Narmobile.")
+else:
+    print("nomrenin duzgunluyun yoxlayin")
+    
+    
+    
+    
+    
+    
+    #print("3.cu sual:.\n")
+print("")
+a = int(input("Maasinizi daxil edin:"))
+if a<= 1000:
+    a = a-(a*14/100 + a*2/100)
+    print(a)
+elif a >= 2500:
+    a = a - (a * 20 / 100 + a * 5 / 100)
+    print(a)
+    
+else:
+  print("Maasinizi Duzgun Daxil Edin")
+  
+  
+  
+  
+ 
+ 
+ # print("4cu sual.\ n")
+print("Birinci Insanin Dogum Tarixini Daxil Edin")
+a = int(input("Doguldugu Gun:"))
+b = int(input("Ay:"))
+c = int(input("İl:"))
+print("Ikinci Insanin Dogum Tarixini Daxil Edin")
+d = int(input("Doguldugu Gun:"))
+e = int(input("Ay"))
+f = int(input("İl:"))
+if c < 2020 and c > 1800 and c > f:
+    print("Boyukdur:", d, ".", e, ".", f)
+elif c < 2020 and c > 1800 and c == f:
+    if b < 12 and b > 0 and b > e:
+        print("Boyukdur:", d, ".", e, ".", f)
+    elif b < 12 and b > 0 and b < e:
+        print("Boyukdur:", a, ".", b, ".", c)
+    elif b < 12 and b > 0 and b == e:
+        if a < 31 and a > 0 and a > d:
+            print("Boyukdur:", d, ".", e, ".", f)
+        elif a < 31 and a > 0 and a < d:
+            print("Boyukdur:", a, ".", b, ".", c)
+        elif a < 31 and a > 0 and a == d:
+            print("her ikisi eyni yasdadir.")
+elif c < 2020 and c > 1800 and c > f:
+    print("Boyukdur:","a","b","c",)

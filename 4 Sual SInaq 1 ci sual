@@ -1,9 +1,0 @@
-print("birinci sual.\n")
-print("x-dən y-ə kimi olan ədədlərin cəmini tapan proqram yazın")
-a = int(input("X in qiymetini daxil edin:"))
-b = int(input("Y in qiymetini daxil Edin"))
-b = int(b)
-c = a
-for i in range(a-1, b, 1):
-    c = c+i
-print("Cavab:",a,"+",a+1,"+...+",b,"=",c)
