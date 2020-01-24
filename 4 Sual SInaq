@@ -1,4 +1,5 @@
 print("birinci sual.\n")
+print("x-dən y-ə kimi olan ədədlərin cəmini tapan proqram yazın")
 a = int(input("X in qiymetini daxil edin:"))
 b = int(input("Y in qiymetini daxil Edin"))
 b = int(b)
